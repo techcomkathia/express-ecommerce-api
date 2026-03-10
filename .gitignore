@@ -1,0 +1,23 @@
+# Dependências
+.env
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Testes
+coverage/
+
+# Sequelize
+migrations/
+seeders/
+
+# Outros
+.idea/
+.vscode/
