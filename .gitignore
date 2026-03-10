@@ -22,5 +22,4 @@ seeders/
 .idea/
 .vscode/
 
-# variáveis de ambiente
-.env
+
