@@ -21,3 +21,6 @@ seeders/
 # Outros
 .idea/
 .vscode/
+
+# variáveis de ambiente
+.env
