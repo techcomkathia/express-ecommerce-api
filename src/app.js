@@ -4,7 +4,11 @@ const app = express();
 
 app.use(express.json());
 
-// Middlewares
-require('./middleware')(app);
+// Middlewares (adicione outros conforme necessário)
+// require('./middleware')(app);
+
+// Rotas principais
+const mainRoutes = require('./routes');
+app.use('/v1', mainRoutes);
 
 module.exports = app;
